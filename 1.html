@@ -1,0 +1,167 @@
+<!doctype Html>
+<HTML>
+  <head>
+    <title>sl coding</title>
+    <meta charset="utf-8">
+  </head>
+
+  <body>
+    <h1><a href="index.html">WEB PAGE</a><br></h1>
+    <h2>생활코딩 관련 사이트: https://opentutorials.org/</h2>
+    <ol>
+        <li><a href="1.html">html</a></li>
+        <li><a href="2_CSS.html">CSS</a></li>
+        <li><a href="3_javaScript.html">JavaScript</a></li>
+    </ol>
+    <h2>HTML</h2>
+    <p>
+    <h3>
+      <u>web page</u>를 만들기 위해서는 <u>HTML language</u>를 이용해서 만들어 진다.
+      HTML editor 중 "ATOM"을 선택한다.
+      우선, 내 PC-바탕화면-폴더[SL coding] 생성한다.
+      ATOM-file-ofen folder(ctrl+shift+O)-file 대화상자-SL coding folder 선택-Select folder
+
+      1.1 Atom-project1-SL coding folder 생성<br><br>
+
+      1.2 pc<--------->Atom 상호 연동한다.<br>
+      <ul>즉, pc에서 folde,file 변동 사항이 Atom에서도 연동하여 동시에 변동 한다.<br><br></ul>
+
+      1.3 Atom HTML file -> web brower로 열기<br>
+      <ul>Chrome browser에서 생성된 web browser에서 "Ctrl+O" click 한다.<br>
+      web browser->ctrl+o->내 컴퓨터->SL coding folder->1.HTML.html click<br><br></ul>
+
+      1.4 web 문법----tag[<>]로 표현한다.<br>
+      <ul>글자 진하게: strong---/strong  [<>--</> 표기]<br>
+      글자 밑줄 긋기: u----/u [<>--</> 표기]<br>
+      제목(heading): h1>h2>h3>h4>h5<br>
+      한줄 바꿈 tag : br <br>
+      두줄 바꿈 tag : br br<br>
+      단락 tag : p---/p (p:paragraph)<br><br></ul>
+
+      1.5통계에 기반한 <u>tag</u> 사용 빈도<br>
+      <ul>=>The average Web page from Top Twenty Google resault.<br>
+      -->https://wwww.advancedwebranking.com/html/<br>
+      - -> 가장 빈도수 높은 tag 찾기 사이트<br><br></ul>
+
+      1.6 The Best Tag 24
+      <ol>
+          head-----------98.1%<br>
+          body-----------97.9%<br>
+          Html-----------97.9%<br>
+          title----------97%<br>
+          meta-----------93.9%<br>
+          div------------89.9%<br>
+          a--------------89.6%<br>
+          script---------88.5%<br>
+          link---------- 86.5%<br>
+          img------------86.3%<br>
+          p--------------81.5%<br>
+          span-----------75.6%<br>
+          li-------------73.8%<br>
+          ul-------------73.7%<br>
+          br-------------70.3%<br>
+          style----------60.4%<br>
+          h1-------------55.8%<br>
+          h2-------------52.7%<br>
+          input----------48.4%<br>
+          form-----------46.9%<br>
+          strong---------44.3%<br>
+          h3-------------43.1%<br>
+          table----------30.9%<br>
+          tr-------------30.3%<br><br>
+
+      1.7 Web에 사진 이미지 넣기 방법<br>
+      <ul>a. web site에서 picture download<br>
+      <ul>b. 현재 작업중인 coding folder에 저장<br>
+      <ul>c. file name change<br>
+      <ul>d. image source => img src="파일명" width="숫자+%"> end.<br>
+          e. 여기서, {src="" width=""}를 속성(Attribute)라고 한다.<br>
+      [예시]<br><br>
+      <img src="coding_large_0.jpg" width="60%">
+      <img src="common.gif">
+      <img src="민수.gif"><br><br>
+
+      1.8 Web1-12. 부모 자식과 목록<br>
+        a. [parent]<br>
+             <ul>[child][/child]</ul>
+            [/parent]<br><br>
+        b. 목록(=list) [li], 목록의 경계: Ul(=unordered list)<br>
+          => [Ul:parent]<br>
+                  <ul>[li:child][/li]</ul>
+             [/Ul]<br>
+             즉, [li]tag는 반드시 부모 tag[Ul]를 가지고 있다.<br>
+              [Ul]tag는 반드시 자식 tag[li]를 가지고 있다.<br><br>
+        c. [ul:unordered list] & [Ol:ordered list] 차이<br>
+          [예시] <ul>
+            <ul>
+              <li>1.한국</li>
+              <li>2.미국</li>
+              <li>영국</li>
+              <li>독일</li>
+            </ul><br>
+            <ol>
+              <li>1.한국</li>
+              <li>미국</li>
+              <li>영국</li>
+              <li>독일</li>
+            </ol><br><br>
+
+        d. [Table] tag는 3대가 같이 다닌다.<br>
+            [table 1대]<br>
+            [tr:table row 2대]<br>
+            [td:table cell 3대] [/td]<br>
+              [/tr]<br>
+            [/table]<br><br>
+            [예시]
+            <table>
+                <tr>
+                  <td>한국</td>
+                  <td>100%</td>
+                </tr>
+                <tr>
+                  <td>미국</td>
+                  <td>90%</td>
+                </tr>
+                <tr>
+                  <td>영국</td>
+                  <td>80%</td>
+                </tr>
+            </table><br><br>
+
+      1.9 Web1-13. 문서의 구조와 슈퍼스타들<br>
+          <li>a. [!doctype Html]:서열1위 고위층,문서 맨 위.
+          <li>b. [Html][/Html]: 서열2위 고위층.
+          <li>c. [head][/head]: 서열3위 고위층.
+          <li>d. [title][/title]: head에 포함됨.web 제목변경할때 사용
+          <li>e. [meta charset="utf-8"]: head에 포함됨.
+          <li>f. [body][/body]: 서열4위 고위층<br><br>
+
+      1.10 Web1-14. HTML tag의 제왕<br>
+              <li>a. [a href="web 주소"]{해당 내용}[/a]
+                => a:anchor,web 바다에 정박한다는 의미
+                => href: hypertext(=link) reference
+                [예제]
+                <a href="https://opentutorials.org" target="_blank" title="생활코딩">생활코딩 관련 사이트</a>
+              <li>b. target="_blank"는 link를 click 했을때 새 탭으로 보여준다.
+              <li>c. title="생활코딩"은 해당 link에 마우스를 가져가면 툴 팁이 뜬다.
+    </h3>
+    </p>
+  </body>
+</HTML>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p>
